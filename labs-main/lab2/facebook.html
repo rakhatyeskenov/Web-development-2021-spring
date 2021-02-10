@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook</title>
+
+        <style>
+            .facebook-heading {
+                font-size: 45px;
+                color: rgb(54, 117, 235);
+                font-family: Helvetica, Arial, sans-serif;
+                font-weight: 720;
+            }
+            .text-left-center {
+                font-family: Helvetica, Arial, sans-serif;
+                font-weight: 500;
+                padding-left: 170px;
+                padding-top: 5px;
+            }
+            body {
+                background-color: rgb(233, 233, 233);
+                /* margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-position: center; */
+            }
+            .facebook-intro {
+                position: relative;
+                height: 106px;
+                margin: -28px;
+                padding-left: 170px;
+                padding-top: 190px;
+               
+            }
+            .loginbox {
+                border-radius: 8px;
+                box-shadow:black;
+                box-shadow: 0px 0px 4px rgb(167, 163, 163), 0px 0px 4px rgb(189, 181, 181);
+                width: 396px;
+                height: 345px;
+                background: rgb(255, 255, 255);
+                color: #fff;
+                top: 45%;
+                left: 75%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                box-sizing: border-box; 
+                padding: 70px 30px;
+                margin-top: 50px;
+            
+            }
+            .text-under-loginbox {
+                top: 75%;
+                left: 75%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                margin-top: 80px;
+            }
+            .loginbox input {
+                margin-top: 1px;
+                width: 100%;
+                margin-bottom: 10px;
+                width: 364px;
+                height: 128;
+                
+            }
+            .loginbox input[type="text"], input[type="password"] {
+                border: 1px solid rgb(187, 187, 196);
+                background: transparent;
+                outline: none;
+                height: 50px;
+                border-radius: 5px;
+                margin-top: 10px;
+                position: relative;
+                top: -50px;
+                left: -25.5px;
+                padding-left: 3%;
+                padding-right: 3%;
+                margin-top: 1%;
+
+                font-size: 17px;
+                font-weight: 10;
+
+                color: rgba(255, 255, 255, 0.699);
+
+                
+            }
+
+            /* Вход */
+            .loginbox input[type="submit"] {
+                /* height: 50px;
+                width: 350px;
+                background:rgb(54, 117, 235);
+                color:rgb(255, 255, 255);
+                font-weight: bold;
+                border-radius: 5px;
+                margin-bottom: 50px;
+                margin-left: 5%; */
+
+                /*  */
+
+                background: transparent;
+                background:rgb(54, 117, 235);
+                color:rgb(255, 255, 255);
+                outline: none;
+                height: 50px;
+                border-radius: 5px;
+                margin-top: 10px;
+                position: relative;
+                top: -50px;
+                left: -25.5px;
+                padding-left: 3%;
+                padding-right: 3%;
+                margin-top: 1%;
+                border: none;
+                width: 385px;
+            }
+
+            .loginbox input[type="submit"]:hover {
+                background-color: rgb(43, 88, 172);
+            }
+
+            .forms-text-password {
+                margin-top: -10px;
+            }
+
+
+            /* Создать аккаунт */
+            #entry input[type="submit"]  {
+                height: 47px;
+                width: 180px;
+                background:rgb(31, 185, 77);
+                color:rgb(255, 255, 255);
+                font-weight: bold;
+                border-radius: 5px;
+                /* margin-bottom: 50px; */
+                margin-top: 70px;
+                margin-left: 110px;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            #entry input[type="submit"]:hover {
+                background-color: rgb(17, 141, 33);
+            }
+
+            /* Вход style */
+            .entry-word input[type="submit"] {
+                font-size: 19px;
+                font-weight: 600;
+            }
+
+            /* .img-facebook-logo {
+            }
+            .text-under-logo {
+            } */
+
+            .text-under-loginbox h6 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+                white-space: nowrap; 
+            } 
+            .text-under-loginbox {
+                /* margin-left: 5%; */
+                margin-right: 10%;
+                margin-top: 100px;
+                text-align: justify;
+            }
+
+            #line {
+                margin-top: -9px;
+            }
+
+    
+            .forget-pass-line {
+                position: relative;
+                bottom: 170px;
+                left: 120px;
+            }
+            hr {
+                display: block; height: 1px;
+                border: 0; 
+                border-top: 1px solid #ccc;
+                /* margin: 1em 0; padding: 0; */
+                width: 900;
+            }
+
+            .forget-pass-line a{
+                color:rgb(24, 105, 255);
+                text-decoration: none;
+                font-size: 15px;
+            }
+
+            .forget-pass-line:hover a{
+                text-decoration:underline;  
+            }
+        #line {
+            position:relative;
+            bottom: 150px;
+        }
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class >
+            <div class="facebook-intro">
+                <!-- <h1 class="facebook-heading">facebook</h1> -->
+                <img class="img-facebook-logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+                alt="Facebook" width="300">
+            </div>
+            <div class="text-under-logo">
+                <h2 class="text-left-center">Facebook помогает вам всегда <br> оставаться на связи и общаться со 
+                    <br> своими знакомыми.</h2>
+            </div>
+        </div>
+        <div class="loginbox">
+            <div class="forms-text-password">
+                <form class="forms-text-pass">
+                    <input type="text" name="" placeholder="Электронный адрес или номер телефона">
+                    <input type="password" name="" placeholder="Пароль">
+                    <div class="entry-word">
+                        <input type="submit" name="" value="Вход"> 
+                    </div>
+                    <div id="entry" >
+                        <input type="submit" name="" value="Создать аккаунт">
+                    </div>
+                    <div class="forget-pass-line">
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                    <div id="line">
+                        <hr>
+                    </div>
+                </form>
+            </div>
+        </div>
+      
+        </div>
+    </body>
+
+</html>

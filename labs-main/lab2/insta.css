@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-photo { 
+    padding-top: 70px;
+    height: 650px;
+    float: right;
+    margin: 10px;
+}
+
+body {
+    background-color: #fafafa!important;
+}
+.container {
+    margin-top: 20px;
+}
+
+.right-column {
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.instagram-logo {
+    margin: 15px auto;
+}
+
+.or {
+    font-size: 13px i !important;
+    color: #999;
+    font-weight: 600;
+}
+
+.or::before {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top: 16px;
+}
+.or::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+}
+
+.facebook-icon {
+    height: 18px !important;
+    /* padding: auto; */
+    padding: 0 8px 2px;
+    background: rgba(255, 255, 255, 0.993);
+    border: none;
+    color: #385185;
+}
+
+.forget-password {
+    font-size: 12px;
+}
+
+#password-block {
+    margin-top: 5px;
+}
+
+.right-column-login {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;;
+}
+
+.entry-button {
+    margin-top: 10px;
+    /* height: 10px; */
+}
+.right-column-login a:hover{
+    text-decoration: none;
+}
+
+.apps-text {
+    font-size: 15px !important;
+    color: #000;
+    font-weight: 400;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 67px;
+}
+
+.apps {
+    position: relative;
+    margin-top: -20px;
+    left: 50px;
+}
+.apps img {
+    width: 140px;
+    height: 40px;;
+}
