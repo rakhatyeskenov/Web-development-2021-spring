@@ -1,0 +1,44 @@
+<app-top-bar></app-top-bar>
+
+ <base href="/" />
+
+<div class="container">
+  <router-outlet>
+    <button class="ctg-btn" (click)="showCategories()">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Icon_List.svg/180px-Icon_List.svg.png" width="20px">
+  Categories
+</button>
+
+<form *ngIf=isOpenCategory>
+  <ul>
+    <li class='ctg-but'>
+      <a [routerLink]="['/product-list']">
+        <button class="ctg-btn" (click)="jumpToCategoryList()">Camera & Photo</button>
+      </a>
+    </li>
+    <li class='ctg-but'>
+      <a [routerLink]="['/product-list']">
+        <button class="ctg-btn" (click)="jumpToCategoryList()">Car & Vehicle Electronics</button>
+      </a>
+    </li>
+    <li class='ctg-but'>
+      <a [routerLink]="['/product-list']">
+        <button class="ctg-btn" (click)="jumpToCategoryList()">Computers & Accessories</button>
+      </a>
+    </li>
+    <li class='ctg-but'>
+      <a [routerLink]="['/product-list']">
+        <button class="ctg-btn" (click)="jumpToCategoryList()">GPS, Finders & Accessories</button>
+      </a>
+    </li>
+  </ul>
+</form>
+  </router-outlet>
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
