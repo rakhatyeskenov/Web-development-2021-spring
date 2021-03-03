@@ -1,0 +1,23 @@
+.img-one-page {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.share-btn {
+  width: 125px;
+  font-weight: 110px;
+  border-radius: 7px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.share-btn.wp {
+  margin-left: 10px;
+}
+
+.share-btn.remove {
+  margin-left: 1px;
+  margin-top: 10px;
+
+}
+
